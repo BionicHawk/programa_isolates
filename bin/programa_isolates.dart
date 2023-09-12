@@ -26,7 +26,7 @@ void main() async {
   }
 
   // Se calcula el promedio con una división entera
-  average = sumatory ~/ numberOfIsolates;
+  average = sumatory ~/ iterations;
 
   print("The average of the $iterations numbers generated is: $average");
 }
